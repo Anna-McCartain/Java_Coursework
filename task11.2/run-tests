@@ -1,0 +1,30 @@
+#!/bin/bash
+set -v
+java ShapeShift << END
+1
+1 1
+3
+2 2
+END
+
+java ShapeShift << END
+2
+1 1
+1 2
+2 1
+3 3
+END
+
+java ShapeShift << END
+3
+0 0
+5 5
+2 2
+END
+
+
+
+
+
+
+

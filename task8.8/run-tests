@@ -1,0 +1,9 @@
+#!/bin/bash
+set -v
+java CalendarHighlight 01 28 01
+java CalendarHighlight 02 29 07
+java CalendarHighlight 03 30 17
+java CalendarHighlight 04 31 12
+java CalendarHighlight 05 15 09
+java CalendarHighlight 06 30 29
+java CalendarHighlight 07 31 31

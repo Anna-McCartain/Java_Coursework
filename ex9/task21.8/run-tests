@@ -1,0 +1,5 @@
+#!/bin/bash
+set -v
+rm -r output*.txt;
+
+java DuplicateVoters voting.txt output1.txt

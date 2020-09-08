@@ -1,0 +1,82 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[n79859am@kilburn mazeSolver]$ nano output.txt
+[n79859am@kilburn mazeSolver]$ cd ..
+[n79859am@kilburn Java_Coursework]$ ls
+ex10  ex5  ex8a  ex9  mazeSolver  task11.2  task8.5  task8.7  task8.8
+[n79859am@kilburn Java_Coursework]$ cd ex10
+[n79859am@kilburn ex10]$ ls
+run-all-tests  task22.8
+[n79859am@kilburn ex10]$ ./run-all-tests 
+
+========================================
+Task task22.8
+----------------------------------------
+
+java Anagrams duck
+duck
+dukc
+dcuk
+dcku
+dkuc
+dkcu
+udck
+udkc
+ucdk
+uckd
+ukdc
+ukcd
+cduk
+cdku
+cudk
+cukd
+ckdu
+ckud
+kduc
+kdcu
+kudc
+kucd
+kcdu
+kcud
+java Anagrams fry
+fry
+fyr
+rfy
+ryf
+yfr
+yrf
+

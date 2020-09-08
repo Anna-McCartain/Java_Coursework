@@ -1,0 +1,28 @@
+========================================
+Task task21.8
+----------------------------------------
+rm -r output*.txt;
+
+java DuplicateVoters voting.txt output1.txt
+========================================
+Task task22.5
+----------------------------------------
+java ReverseLines << END  
+Nature’s first green is gold,
+Her hardest hue to hold.
+Her early leaf’s a flower;
+But only so an hour.
+Then leaf subsides to leaf.
+So Eden sank to grief,
+So dawn goes down to day.
+Nothing gold can stay.
+END
+Nothing gold can stay.
+So dawn goes down to day.
+So Eden sank to grief,
+Then leaf subsides to leaf.
+But only so an hour.
+Her early leaf’s a flower;
+Her hardest hue to hold.
+Nature’s first green is gold,
+

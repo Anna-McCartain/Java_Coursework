@@ -1,0 +1,20 @@
+|  a   ||  b   ||  c   ||  d   ||  p1  ||  p2  ||  p3  |
+|______||______||______||______||______||______||______|
+| false | false | false | false | false | false | false |
+| false | false | false | true  | false | false | false |
+| false | false | true  | false | false | false | false |
+| false | false | true  | true  | true  | true  | true  |
+| false | true  | false | false | false | false | false |
+| false | true  | false | true  | true  | true  | true  |
+| false | true  | true  | false | false | false | false |
+| false | true  | true  | true  | true  | true  | true  |
+| true  | false | false | false | false | false | false |
+| true  | false | false | true  | false | false | false |
+| true  | false | true  | false | true  | true  | true  |
+| true  | false | true  | true  | true  | true  | true  |
+| true  | true  | false | false | false | false | false |
+| true  | true  | false | true  | true  | true  | true  |
+| true  | true  | true  | false | true  | true  | true  |
+| true  | true  | true  | true  | true  | true  | true  |
+|______||______||______||______||______||______||______|
+

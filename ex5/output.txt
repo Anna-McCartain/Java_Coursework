@@ -1,0 +1,88 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[n79859am@kilburn mazeSolver]$ nano output.txt
+[n79859am@kilburn mazeSolver]$ cd ..
+[n79859am@kilburn Java_Coursework]$ ls
+ex10  ex5  ex8a  ex9  mazeSolver  task11.2  task8.5  task8.7  task8.8
+[n79859am@kilburn Java_Coursework]$ cd ex10
+[n79859am@kilburn ex10]$ ls
+run-all-tests  task22.8
+[n79859am@kilburn ex10]$ ./run-all-tests 
+[n79859am@kilburn ex10]$ nano output.txt
+[n79859am@kilburn ex10]$ cd ..
+[n79859am@kilburn Java_Coursework]$ cd ex5
+[n79859am@kilburn ex5]$ ls
+18.6  18.7  run-all-tests  task18.6  task18.7
+[n79859am@kilburn ex5]$ ./run-all-tests 
+
+MON     TUE     THUR    FRI     SAT     SUN
+01      02      04      05      06      07
+08      09      11      12      13      14
+15      16      18      19      20      21  
+
+#testing the standard input and output
+java DeleteField 1 - -<<END
+MON     TUE     WED     THUR    FRI     SAT     SUN
+01      02      03      04      05      06      07
+08      09      10      11      12      13      14
+15      16      17      18      19      20      21
+
+END
+TUE     WED     THUR    FRI     SAT     SUN
+02      03      04      05      06      07
+09      10      11      12      13      14
+16      17      18      19      20      21
+
+========================================
+Task task18.7
+----------------------------------------
+
+java Uuencode binary.txt | tee encodedBinary.txt
+begin 600 binary.txt
+M0G5D9'DL('EO=2=R92!A(&)O>2P@;6%K92!A(&)I9R!N;VES90I0;&%Y:6YG
+M(&EN('1H92!S=')E970L(&=O;FYA(&)E(&$@8FEG(&UA;B!S;VUE9&%Y"EEO
+M=2!G;W0@;75D(&]N('EO=7(@9F%C92P@>6]U(&)I9R!D:7-G<F%C90I+:6-K
+M:6YG('EO=7(@8V%N(&%L;"!O=F5R('1H92!P;&%C92P@<VEN9VEN)PI792!W
+M:6QL+"!W92!W:6QL(')O8VL@>6]U"E=E('=I;&PL('=E('=I;&P@<F]C:R!Y
+M;W4*0G5D9'DL('EO=2=R92!A('EO=6YG(&UA;BP@:&%R9"!M86X*4VAO=71I
+M;F<@:6X@=&AE('-T<F5E="P@9V]N;F$@=&%K92!O;B!T:&4@=V]R;&0@<V]M
+M961A>0I9;W4@9V]T(&)L;V]D(&]N('EO=7(@9F%C92P@>6]U(&)I9R!D:7-G
+K<F%C90I7879I;F<@>6]U<B!B86YN97(@86QL(&]V97(@=&AE('!L86-E"@``
+`
+end
+uudecode -o decodedBinary.txt encodedBinary.txt
+

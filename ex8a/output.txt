@@ -1,0 +1,88 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[n79859am@kilburn mazeSolver]$ nano output.txt
+[n79859am@kilburn mazeSolver]$ cd ..
+[n79859am@kilburn Java_Coursework]$ ls
+ex10  ex5  ex8a  ex9  mazeSolver  task11.2  task8.5  task8.7  task8.8
+[n79859am@kilburn Java_Coursework]$ cd ex10
+[n79859am@kilburn ex10]$ ls
+run-all-tests  task22.8
+[n79859am@kilburn ex10]$ ./run-all-tests 
+[n79859am@kilburn ex10]$ nano output.txt
+[n79859am@kilburn ex10]$ cd ..
+[n79859am@kilburn Java_Coursework]$ cd ex5
+[n79859am@kilburn ex5]$ ls
+18.6  18.7  run-all-tests  task18.6  task18.7
+[n79859am@kilburn ex5]$ ./run-all-tests 
+[n79859am@kilburn ex5]$ nano output.txt
+[n79859am@kilburn ex5]$ cd ..
+[n79859am@kilburn Java_Coursework]$ cd ex8a
+[n79859am@kilburn ex8a]$ ls
+run-all-tests  task11.3  task12.2  task12.5
+[n79859am@kilburn ex8a]$ ./run-all-tests 
+
+Total Call Duration - 0
+Account - provider - O2
+balance - 0
+Wants to top up their phone with 
+15 Quid.
+Return: 
+Student:
+Name - Anna McCartain
+Phone: Name - Huawei
+Total Call Duration - 0
+Account - provider - O2
+balance - 1500
+
+Make Calls:
+
+Student:
+Name - Anna McCartain
+Phone: Name - Huawei
+Total Call Duration - 0
+Account - provider - O2
+balance - 1500
+Wants to make call of 
+500 seconds.
+Return: 
+Student:
+Name - Anna McCartain
+Phone: Name - Huawei
+Total Call Duration - 500
+Account - provider - O2
+balance - 1000
+
